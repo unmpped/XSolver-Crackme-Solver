@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xsolver"
+version = "1.9.1"
+description = "Automatic crackme solver for ELF and PE binaries"
+requires-python = ">=3.10"
+dependencies = ["psutil>=5.9", "angr>=9.2", "capstone>=5", "z3-solver>=4.12",
+                "pefile>=2023.2", "frida>=16"]
+
+[project.scripts]
+xsolver = "xsolver.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["xsolver*"]
+
+[tool.setuptools.package-data]
+"xsolver._vendor" = ["**/*"]
