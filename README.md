@@ -17,9 +17,8 @@ Windows `.exe` targets run through Wine inside WSL2.
 
 Run `bash setup.sh`, then `bash launch.sh` for the interface. To solve directly:
 
-```bash
 bash launch.sh solve /path/to/target --budget 30
-```
+
 
 ## About
 
