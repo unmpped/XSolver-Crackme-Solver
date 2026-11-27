@@ -38,8 +38,6 @@ Choose About in the interface for project links and credits.
 
 * Windows may warn that xsolver.exe is unsigned.
 
-* This source ZIP has no LICENSE yet. Choose one before publishing if you want to grant reuse rights.
-
 ### Don't trust it?
 
 Fair. Read the code first: the solver is in xsolver/, and the Windows launcher source is tools/xsolver_launcher.c. Check what it does before running it.
